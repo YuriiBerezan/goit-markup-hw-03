@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <title>Студия</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -22,25 +26,28 @@
       </a>
       <!-- Навигация на другие страницы -->
       <nav>
-        <ul class="navigation-links">
-          <li><a class="navigation-links-title" href="./index.html">Студия</a></li>
-          <li><a class="navigation-links-title" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="navigation-links-title" href="./contacts">Контакты</a></li>
+        <ul class="navigation-menu">
+          <li class="navigation-item">
+            <a class="navigation-links" href="./index.html">Студия</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-links" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-links" href="./contacts">Контакты</a>
+          </li>
         </ul>
       </nav>
       <!--Контакты-->
-      <a class="contacts" href="mailto: info@devstudio.com">info@devstudio.com</a>
-      <a class="contacts" href="tel:380961111111">+38 096 111 11 11</a>
+      <a class="contacts-header" href="mailto: info@devstudio.com">info@devstudio.com</a>
+      <a class="contacts-header" href="tel:380961111111">+38 096 111 11 11</a>
     </header>
 
     <!-- Уникальный контент страницы -->
     <main>
       <!--Секция заказа-->
       <section>
-        <h1 class="order-title">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
+        <h1 class="order-title">Эффективные решения для вашего бизнеса</h1>
         <button class="order-btn" type="button">Заказать услугу</button>
       </section>
 
@@ -105,7 +112,7 @@
               height="260"
             />
             <p class="team-names">Игорь Демьяненко</p>
-            <br />
+
             <p class="team-position">Product Designer</p>
           </li>
 
@@ -117,14 +124,14 @@
               height="260"
             />
             <p class="team-names">Ольга Репина</p>
-            <br />
+
             <p class="team-position">Frontend Developer</p>
           </li>
 
           <li>
             <img src="./images/img3.jpg" alt="Николай ТарасовMarketing" width="270" height="260" />
             <p class="team-names">Николай Тарасов</p>
-            <br />
+
             <p class="team-position">Marketing</p>
           </li>
 
@@ -136,7 +143,6 @@
               height="260"
             />
             <p class="team-names">Михаил Ермаков</p>
-            <br />
             <p class="team-position">UI Designer</p>
           </li>
         </ul>
@@ -151,9 +157,8 @@
       </a>
       <address>
         <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-        <br />
-        <a class="contacts" href="mailto: info@devstudio.com">info@devstudio.com</a><br />
-        <a class="contacts" href="tel:380961111111">+38 096 111 11 11</a>
+        <a class="contacts-footer" href="mailto: info@devstudio.com">info@devstudio.com</a>
+        <a class="contacts-footer" href="tel:380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
