@@ -7,6 +7,37 @@
 body {
   font-family: 'Roboto', Raleway, sans-serif;
   color: var(--main-color);
+  border: none;
+  margin: 0;
+  width: 1600px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  width: 1600px;
+  padding: 94px 0 94px 0;
 }
 
 a:hover {
@@ -17,8 +48,8 @@ a:hover {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
   font-family: Raleway;
+  margin: 24px 0 25px 215px;
 }
 .web-studio-link-color-web {
   color: var(--web-color);
@@ -32,22 +63,31 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  list-style: none;
+  display: flex;
+  margin: 32px 0 32px 93px;
 }
 .navigation-links-title {
-  text-decoration: none;
   color: var(--main-color);
+  margin-right: 50px;
 }
 
-.contacts-header {
+.contacts-header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  list-style: none;
-  text-decoration: none;
+  margin: 32px 0 32px 280px;
 }
+.contacts-header-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--contacts-header-color);
+  margin: 32px 0 32px 50px;
+}
+
 .contacts-footer {
   font-style: normal;
   font-weight: 400;
@@ -55,8 +95,6 @@ a:hover {
   line-height: 1.7;
   color: var(--contacts-header-color);
   /*color: var(--contacts-footer-color);*/
-  list-style: none;
-  text-decoration: none;
 }
 
 .footer-address {
@@ -66,13 +104,22 @@ a:hover {
   /*color: var(--contacts-footer-color);*/
 }
 /*STUDIO MAIN*/
+.order {
+  display: block;
+  height: 600px;
+  background: #2f303a;
+}
+
 .order-title {
+  text-align: center;
+  width: 650px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-
-  /*color: var(--contacts-footer-color);*/
+  padding-top: 213px;
+  padding-left: 467px;
+  color: var(--contacts-footer-color);
 }
 
 .order-btn {
@@ -87,6 +134,10 @@ a:hover {
   font-size: 16px;
   line-height: 1.9;
   color: var(--contacts-footer-color);
+  margin-left: 715px;
+  margin-top: 30px;
+
+  text-align: center;
 }
 
 .peculiarities-title {
@@ -109,11 +160,7 @@ a:hover {
   line-height: 1.17;
   color: var(--main-color);
 }
-.kind-work-img,
-.team-img,
-.peculiarities-list {
-  list-style: none;
-}
+
 .team-names {
   font-weight: 500;
   font-size: 16px;
@@ -137,12 +184,8 @@ a:hover {
   font-size: 16px;
   line-height: 1.6;
   color: var(--main-color);
-  list-style: none;
 }
-.projects-btn-list,
-.projects-img {
-  list-style: none;
-}
+
 .projects-title {
   font-weight: 700;
   font-size: 18px;
