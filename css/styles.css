@@ -3,6 +3,7 @@
   --contacts-header-color: #757575;
   --contacts-footer-color: #fff;
   --web-color: #2196f3;
+  --background-color: #2f303a;
 }
 body {
   font-family: 'Roboto', Raleway, sans-serif;
@@ -14,9 +15,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul,
 button {
@@ -88,26 +86,56 @@ a:hover {
   margin: 32px 0 32px 50px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 252px;
+  background: var(--background-color);
+}
+.web-studio-link-footer {
+  /*display: flex;*/
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  font-family: Raleway;
+  padding-top: 60px;
+  padding-left: 215px;
+}
+.web-studio-link-color-studio-footer {
+  color: var(--contacts-footer-color);
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  height: 81px;
+  width: 231px;
+  margin-top: 20px;
+  margin-left: 215px;
+}
+
 .contacts-footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--contacts-header-color);
-  /*color: var(--contacts-footer-color);*/
+  color: var(--contacts-footer-color);
+  opacity: 0.6;
+  margin-bottom: 9px;
 }
 
 .footer-address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
-  /*color: var(--contacts-footer-color);*/
+  color: var(--contacts-footer-color);
+  margin-bottom: 9px;
 }
 /*STUDIO MAIN*/
 .order {
   display: block;
   height: 600px;
-  background: #2f303a;
+  background: var(--background-color);
 }
 
 .order-title {
@@ -124,6 +152,7 @@ a:hover {
 
 .order-btn {
   cursor: pointer;
+  height: 50px;
   width: 200px;
   background: var(--web-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -136,11 +165,26 @@ a:hover {
   color: var(--contacts-footer-color);
   margin-left: 715px;
   margin-top: 30px;
-
   text-align: center;
 }
 
+.peculiarities {
+  display: block;
+  height: 101px;
+  width: 1170px;
+  margin: 94px 215px;
+}
+
+.peculiarities-list {
+  display: flex;
+}
+.peculiarities-item,
+.kind-work-item {
+  margin-right: 30px;
+}
+
 .peculiarities-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -153,12 +197,52 @@ a:hover {
   line-height: 1.7;
   color: var(--contacts-header-color);
 }
-.our-team-title,
+
+.kind-work {
+  display: block;
+  height: 386px;
+  width: 1170px;
+  margin: 94px 215px;
+}
+.kind-work-img {
+  display: flex;
+  padding-top: 50px;
+}
+
 .kind-work-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--main-color);
+}
+
+.our-team {
+  display: block;
+  height: 648px;
+  background: #f5f4fa;
+  margin-top: 94px;
+}
+
+.our-team-title {
+  text-align: center;
+  padding-top: 94px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--main-color);
+}
+.team-img {
+  display: flex;
+  margin: 50px 215px 0 215px;
+  text-align: center;
+}
+.our-team-item {
+  margin-right: 30px;
+  background-color: var(--contacts-footer-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-names {
