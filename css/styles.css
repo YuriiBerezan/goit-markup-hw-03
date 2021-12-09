@@ -49,7 +49,7 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  background-color: lawngreen;
+ /* background-color: lawngreen;*/
 }
 .section {
   padding: 94px 0;
@@ -148,6 +148,14 @@ address {
   margin-bottom: 20px;
 }
 /*STUDIO MAIN*/
+
+.img-margin-right{
+  margin-right: 30px;
+}
+
+.img-margin-btm{
+  margin-bottom: 30px;
+}
 .order {
   /*height: 600px;*/
   background: var(--background-color);
@@ -203,17 +211,19 @@ address {
 
 .kind-work-img {
   display: flex;
-  /*padding-top: 50px;*/
+  justify-content: center;
 }
 
 .kind-work-title {
   margin-bottom: 50px;
-  /*text-align: center;*/
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--main-color);
 }
+
+
 
 .our-team {
   background: #f5f4fa;
@@ -228,11 +238,11 @@ address {
 }
 .team-img {
   display: flex;
-  /*margin: 50px 215px 0 215px;*/
-  text-align: center;
+  justify-content: center;
 }
+ 
 .our-team-item {
-  /* margin-right: 30px;*/
+  
   background-color: var(--contacts-footer-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -253,22 +263,19 @@ address {
 
 /*PORTFOLIO MAIN*/
 
-.projects {
-  display: block;
-  /* width: 1215px;
-  height: 1360px;
-  margin: 94px 215px;*/
+.btn-margin{
+  margin-right: 8px;
+
 }
+
 .projects-btn-list {
   display: flex;
   justify-content: center;
 
-  /*text-align: center;*/
-  /*padding-bottom: 34px;*/
 }
 .projects-btn {
   padding: 6px 22px;
-  /*margin-right: 8px;*/
+  margin-bottom: 50px;
   font-family: Roboto;
   cursor: pointer;
   background: #f5f4fa;
@@ -283,12 +290,11 @@ address {
   display: flex;
   flex-wrap: wrap;
 }
-.projects-img-list {
-  /*  margin-right: 30px;
-  margin-bottom: 30px;*/
-  border: 1px solid #eeeeee;
+.projects-img-item {
+  border-bottom: 1px solid #eeeeee;
 }
 .projects-title {
+  margin: 20px 0 4px 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -296,6 +302,7 @@ address {
 }
 
 .projects-description {
+  margin: 0 0 20px 24px;
   font-size: 18px;
   line-height: 1.9;
   color: var(--contacts-header-color);
