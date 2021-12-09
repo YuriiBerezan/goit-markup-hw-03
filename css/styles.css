@@ -164,6 +164,8 @@ address {
 }
 
 .order-title {
+ padding-top: 226px;
+ /*padding-bottom: 254px;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -174,10 +176,9 @@ address {
 }
 
 .order-btn {
-  /*display: inline-block;*/
+
   cursor: pointer;
-  /*text-align: center;*/
-  /*vertical-align: middle;*/
+
   background: var(--web-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
