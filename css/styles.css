@@ -24,7 +24,8 @@ h2,
 h3,
 p,
 ul,
-button {
+button,
+li {
   margin: 0;
   padding: 0;
 }
@@ -44,18 +45,21 @@ button:hover {
   color: var(--contacts-footer-color);
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
+  background-color: lawngreen;
+}
+.section {
+  padding: 94px 0;
+}
+
+.centered {
+  text-align: center;
 }
 .page-header {
-  /* display: flex;*/
-  /* flex-direction: row;*/
-  border-bottom: 1px solid #ececec;
-  height: 80px;
-
-  outline: 3px solid tomato;
+  border: 1px solid #ececec;
 }
 
 .web-studio-link {
@@ -63,7 +67,6 @@ button:hover {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  /*margin: 24px 0 25px 215px;*/
 }
 .web-studio-link-color-web {
   color: var(--web-color);
@@ -78,11 +81,9 @@ button:hover {
   font-size: 14px;
   line-height: 1.14;
   display: flex;
-  /*margin: 32px 0 32px 93px;*/
 }
 .navigation-links-title {
   color: var(--main-color);
-  /*margin-right: 50px;*/
 }
 
 .contacts-header-mail {
@@ -91,7 +92,6 @@ button:hover {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  /*margin: 32px 0 32px 280px;*/
 }
 .contacts-header-tel {
   font-style: normal;
@@ -99,23 +99,23 @@ button:hover {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  /*margin: 32px 0 32px 50px;*/
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  /*height: 252px;*/
+
   background: var(--background-color);
 }
 .web-studio-link-footer {
-  /*display: flex;*/
+  display: inline-block;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  /*padding-top: 60px;
-  padding-left: 215px;*/
+  margin-top: 60px;
+  margin-bottom: 20px;
+  /*padding-left: 215px;*/
 }
 .web-studio-link-color-studio-footer {
   color: var(--contacts-footer-color);
@@ -137,7 +137,7 @@ address {
   line-height: 1.7;
   color: var(--contacts-footer-color);
   opacity: 0.6;
-  /*margin-bottom: 9px;*/
+  margin-bottom: 9px;
 }
 
 .footer-address {
@@ -145,29 +145,31 @@ address {
   font-size: 14px;
   line-height: 1.14;
   color: var(--contacts-footer-color);
-  /* margin-bottom: 9px;*/
+  margin-bottom: 20px;
 }
 /*STUDIO MAIN*/
 .order {
-  height: 600px;
+  /*height: 600px;*/
   background: var(--background-color);
+
+  /*text-align: center;*/
 }
 
 .order-title {
-  /*width: 650px;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  /*padding-top: 213px;
-  padding-left: 467px;*/
+
+  margin-bottom: 30px;
   color: var(--contacts-footer-color);
 }
 
 .order-btn {
+  /*display: inline-block;*/
   cursor: pointer;
-  /*height: 50px;
-  width: 200px;*/
+  /*text-align: center;*/
+  /*vertical-align: middle;*/
   background: var(--web-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -178,14 +180,6 @@ address {
   line-height: 1.9;
   color: var(--contacts-footer-color);
   padding: 10px 32px;
-  /*text-align: center;*/
-}
-
-.peculiarities {
-  display: block;
-  /* height: 101px;
-  width: 1170px;
-  margin: 94px 215px;*/
 }
 
 .peculiarities-list {
@@ -193,7 +187,7 @@ address {
 }
 
 .peculiarities-title {
-  /* margin-bottom: 10px;*/
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -207,19 +201,14 @@ address {
   color: var(--contacts-header-color);
 }
 
-.kind-work {
-  display: block;
-  /* height: 386px;
-  width: 1170px;
-  margin: 94px 215px;*/
-}
 .kind-work-img {
   display: flex;
   /*padding-top: 50px;*/
 }
 
 .kind-work-title {
-  text-align: center;
+  margin-bottom: 50px;
+  /*text-align: center;*/
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -227,15 +216,11 @@ address {
 }
 
 .our-team {
-  display: block;
-  /*  height: 648px;*/
   background: #f5f4fa;
-  /*margin-top: 94px;*/
 }
 
 .our-team-title {
-  text-align: center;
-  /* padding-top: 94px;*/
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
