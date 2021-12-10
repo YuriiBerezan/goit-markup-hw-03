@@ -75,7 +75,6 @@ button:hover {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  outline: 1px solid aqua;
 }
 .web-studio-link-color-web {
   color: var(--web-color);
@@ -90,7 +89,6 @@ button:hover {
 }
 .navigation-links .navigation-links-item {
   margin-right: 50px;
-  outline: 1px solid aqua;
 }
 .navigation-links .navigation-links-item:last-child {
   margin-right: 0;
@@ -106,6 +104,7 @@ button:hover {
 }
 
 .contacts-header-mail {
+  margin-left: auto;
   margin-right: 50px;
   padding: 20px 0;
   font-style: normal;
@@ -113,7 +112,6 @@ button:hover {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  outline: 1px solid aqua;
 }
 .contacts-header-tel {
   padding: 20px 0;
@@ -122,13 +120,9 @@ button:hover {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
-  outline: 1px solid aqua;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-
+.page-footer {
   background: var(--background-color);
 }
 .web-studio-link-footer {
@@ -145,13 +139,9 @@ footer {
   color: var(--contacts-footer-color);
 }
 
-address {
+.page-address {
   display: flex;
   flex-direction: column;
-  /*height: 81px;
-  width: 231px;
-  margin-top: 20px;
-  margin-left: 215px;*/
 }
 
 .contacts-footer {
@@ -180,20 +170,23 @@ address {
   /*text-align: center;*/
 }
 
+.order-padding {
+  padding: 200px 0;
+}
 .order-title {
-  display: inline-block;
+  /*display: inline-block;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
-  margin-top: 200px;
+  /*margin-top: 200px;*/
   margin-bottom: 30px;
   color: var(--contacts-footer-color);
 }
 
 .order-btn {
   cursor: pointer;
-  margin-bottom: 200px;
+  /*margin-bottom: 200px;*/
   background: var(--web-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -212,7 +205,6 @@ address {
 }
 .peculiarities-list .peculiarities-item {
   margin-right: 30px;
-  outline: 1px solid aqua;
 }
 
 .peculiarities-list .peculiarities-item:last-child {
@@ -240,7 +232,6 @@ address {
 }
 .kind-work-list .kind-work-item {
   margin-right: 30px;
-  outline: 1px solid aqua;
 }
 
 .kind-work-list .kind-work-item:last-child {
@@ -265,7 +256,6 @@ address {
 
 .our-team-list .our-team-item {
   margin-right: 30px;
-  outline: 1px solid aqua;
 }
 .our-team-list .our-team-item:last-child {
   margin-right: 0;
@@ -306,7 +296,6 @@ address {
 .projects-btn-list .project-item {
   margin-right: 8px;
   margin-bottom: 50px;
-  outline: 1px solid aqua;
 }
 .projects-btn-list .project-item:last-child {
   margin-right: 0;
@@ -333,10 +322,14 @@ address {
 .projects-img-list .projects-img-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 1px solid aqua;
-}
-.projects-img-item {
   border-bottom: 1px solid #eeeeee;
+}
+
+.projects-img-item:nth-child(3n) {
+  margin-right: 0;
+}
+.projects-img-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 .projects-title {
   margin: 20px 0 4px 20px;
