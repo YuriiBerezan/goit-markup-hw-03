@@ -16,7 +16,7 @@
   <body>
     <!-- Шапка страницы -->
     <header class="page-header">
-      <div class="container">
+      <div class="container main-nav">
         <a class="web-studio-link" href="WebSudio"
           ><span class="web-studio-link-color-web">Web</span
           ><span class="web-studio-link-color-studio">Studio</span>
@@ -24,14 +24,16 @@
         <!-- Навигация на другие страницы -->
         <nav>
           <ul class="navigation-links">
-            <li><a class="navigation-links-title" href="./index.html">Студия</a></li>
-            <li><a class="navigation-links-title" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="navigation-links-title" href="./contacts">Контакты</a></li>
+            <li class="navigation-links-item"><a class="navigation-links-title" href="./index.html">Студия</a></li>
+            <li class="navigation-links-item"><a class="navigation-links-title" href="./portfolio.html">Портфолио</a></li>
+            <li class="navigation-links-item"><a class="navigation-links-title" href="./contacts">Контакты</a></li>
           </ul>
         </nav>
         <!--Контакты-->
+        
         <a class="contacts-header-mail" href="mailto: info@devstudio.com">info@devstudio.com</a>
         <a class="contacts-header-tel" href="tel:380961111111">+38 096 111 11 11</a>
+       
       </div>
     </header>
 
@@ -40,7 +42,7 @@
       <!--Секция заказа-->
       <section class="order centered">
         <div class="container">
-          <h1 class="order-title">Эффективные решения для вашего бизнеса</h1> </div>
+          <h1 class="order-title">Эффективные решения <br> для вашего бизнеса</h1> </div>
           <div class="container"> <button class="order-btn" type="button">Заказать услугу</button>
         </div>
       </section>
@@ -84,11 +86,11 @@
       <section class="section">
         <div class="container">
           <h2 class="kind-work-title centered">Чем мы занимаемся</h2>
-          <ul class="kind-work-img">
-            <li class="kind-work-item img-margin-right">
+          <ul class="kind-work-list">
+            <li class="kind-work-item">
               <img src="./images/img.jpg" alt="Кодинг" width="370" height="294" />
             </li>
-            <li class="kind-work-item img-margin-right">
+            <li class="kind-work-item">
               <img src="./images/box 2.jpg" alt="Web дизайн" width="370" height="294" />
             </li>
             <li class="kind-work-item">
@@ -102,8 +104,8 @@
       <section class="our-team section">
         <div class="container">
           <h2 class="our-team-title centered">Наша команда</h2>
-          <ul class="team-img">
-            <li class="our-team-item img-margin-right">
+          <ul class="our-team-list">
+            <li class="our-team-item">
               <img
                 src="./images/img1.jpg"
                 alt="Игорь Демьяненко Product Designer"
@@ -115,7 +117,7 @@
               <p class="team-position centered">Product Designer</p>
             </li>
 
-            <li class="our-team-item img-margin-right">
+            <li class="our-team-item">
               <img
                 src="./images/img2.jpg"
                 alt="Ольга Репина Frontend Developer"
@@ -127,7 +129,7 @@
               <p class="team-position centered">Frontend Developer</p>
             </li>
 
-            <li class="our-team-item img-margin-right">
+            <li class="our-team-item">
               <img
                 src="./images/img3.jpg"
                 alt="Николай ТарасовMarketing"
