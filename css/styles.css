@@ -56,6 +56,10 @@ button:hover {
   padding: 94px 0;
 }
 
+.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .centered {
   text-align: center;
 }
@@ -321,6 +325,9 @@ button:hover {
   color: var(--main-color);
 }
 
+.projects-container{
+  padding: 20px 0
+}
 .projects-img-list {
   display: flex;
   flex-wrap: wrap;
@@ -339,7 +346,8 @@ button:hover {
   margin-bottom: 0;
 }
 .projects-title {
-  margin: 20px 0 4px 20px;
+  /*margin: 20px 0 4px 20px;*/
+  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -347,7 +355,7 @@ button:hover {
 }
 
 .projects-description {
-  margin: 0 0 20px 24px;
+ margin-left: 24px;
   font-size: 18px;
   line-height: 1.9;
   color: var(--contacts-header-color);
