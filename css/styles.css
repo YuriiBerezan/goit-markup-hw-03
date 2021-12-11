@@ -124,6 +124,7 @@ button:hover {
 
 .page-footer {
   background: var(--background-color);
+  padding: 60px 0;
 }
 .web-studio-link-footer {
   display: inline-block;
@@ -131,7 +132,7 @@ button:hover {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  margin-top: 60px;
+  
   margin-bottom: 20px;
   /*padding-left: 215px;*/
 }
@@ -202,9 +203,11 @@ button:hover {
 .peculiarities-list {
   display: flex;
   justify-content: center;
+  
 }
 .peculiarities-list .peculiarities-item {
   margin-right: 30px;
+  width:  270px;
 }
 
 .peculiarities-list .peculiarities-item:last-child {
@@ -274,7 +277,9 @@ button:hover {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.team-container{
+  padding: 30px 0;
+}
 .team-names {
   font-weight: 500;
   font-size: 16px;
@@ -292,10 +297,11 @@ button:hover {
 .projects-btn-list {
   display: flex;
   justify-content: center;
+  
+  margin-bottom: 50px;
 }
 .projects-btn-list .project-item {
   margin-right: 8px;
-  margin-bottom: 50px;
 }
 .projects-btn-list .project-item:last-child {
   margin-right: 0;
@@ -324,6 +330,7 @@ button:hover {
   margin-bottom: 30px;
   border-bottom: 1px solid #eeeeee;
 }
+
 
 .projects-img-item:nth-child(3n) {
   margin-right: 0;
