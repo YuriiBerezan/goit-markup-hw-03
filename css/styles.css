@@ -46,7 +46,7 @@ button:hover {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -65,6 +65,7 @@ button:hover {
 }
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding: 5px 0;
 }
 
 .main-nav {
@@ -136,7 +137,7 @@ button:hover {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  
+
   margin-bottom: 20px;
   /*padding-left: 215px;*/
 }
@@ -207,11 +208,10 @@ button:hover {
 .peculiarities-list {
   display: flex;
   justify-content: center;
-  
 }
 .peculiarities-list .peculiarities-item {
   margin-right: 30px;
-  width:  270px;
+  width: 270px;
 }
 
 .peculiarities-list .peculiarities-item:last-child {
@@ -231,8 +231,8 @@ button:hover {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-header-color);
+  letter-spacing: 0.03em;
 }
-
 .kind-work-list {
   display: flex;
   justify-content: center;
@@ -281,7 +281,7 @@ button:hover {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-container{
+.team-container {
   padding: 30px 0;
 }
 .team-names {
@@ -301,7 +301,7 @@ button:hover {
 .projects-btn-list {
   display: flex;
   justify-content: center;
-  
+
   margin-bottom: 50px;
 }
 .projects-btn-list .project-item {
@@ -325,8 +325,8 @@ button:hover {
   color: var(--main-color);
 }
 
-.projects-container{
-  padding: 20px 0
+.projects-container {
+  padding: 20px 24px;
 }
 .projects-img-list {
   display: flex;
@@ -335,9 +335,8 @@ button:hover {
 .projects-img-list .projects-img-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
-
 
 .projects-img-item:nth-child(3n) {
   margin-right: 0;
@@ -346,8 +345,6 @@ button:hover {
   margin-bottom: 0;
 }
 .projects-title {
-  /*margin: 20px 0 4px 20px;*/
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -355,7 +352,6 @@ button:hover {
 }
 
 .projects-description {
- margin-left: 24px;
   font-size: 18px;
   line-height: 1.9;
   color: var(--contacts-header-color);
